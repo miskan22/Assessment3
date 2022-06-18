@@ -1,0 +1,316 @@
+/*Style for logo and navigation bar*/
+.logo {
+    width:20%;
+    height:Auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Nav heading text*/
+.nav {
+    width: auto;
+	  height: auto;
+	  display: flex;
+	  justify-content: space-around;
+    padding: 15px;
+}
+/*Nav background behind the text*/
+.navbox {
+    width: auto;
+	  height: auto;
+	  font-family: 'Roboto', sans-serif;
+	  text-align: center;
+	  font-size: 22pt;
+    background-color: #FAEBD7;
+    text-decoration: none;
+    padding: 15px;
+}
+/*End of nav bar and logo style*/
+
+/*Start of slideshow styling*/
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/*Hide the images by default*/
+.mySlides {
+  display: none;
+}
+
+.slideimg {
+	max-width: 95%;
+  flex-basis: 10%;
+}
+
+/*Hides Next & previous buttons*/
+.prev, .next {
+  display: none;
+}
+
+/*Image Text for slideshow images*/
+.slideshow-container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  font-family: 'Roboto', sans-serif;
+  color: #f1f1f1;
+  width: 95%;
+  padding: 15px;
+}
+
+/* Fading animation when time */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/*End of slideshow styling*/
+/*Style for body section - all pages*/
+/*Body background*/
+.bodybox {
+	width: 100%;
+    background-color: #494A49;
+    padding: 15px;
+    margin: 8px 2px 8px 2px;
+    overflow: hidden;
+    height: auto;
+}
+
+/*Body header*/
+.bodyheader	{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16pt;
+    margin: 5px 22px 16px 22px;
+    color: white;
+}
+/*Body sub header*/
+.bodysubheader	{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    margin: 5px 22px 16px 22px;
+    color: white;
+}
+/*Body text*/
+.bodytext	{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    margin: 5px 22px 16px 22px;
+    color: white;
+}
+
+/*End of body section styles for all pages*/
+/*Extra styling of body sections for all pages*/
+
+/*Separate text style for home page only*/
+.homeheader	{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14pt;
+  color: black;
+}
+
+.hometext	{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12pt;
+  color: black;
+}
+
+/*Table like white outline with text style in it in Category*/
+.bodygroove {
+	border: groove;
+	background-color: #494A49;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	padding: 15px;
+	line-height: 2em;
+}
+
+/*Image styles in Category*/
+.catimg {
+	flex-basis: 10%;
+	max-width: 100%;
+  width: 200px;
+  height: 200px;
+}
+
+/*For Image Text in Category*/
+.catcontainer {
+  position: relative;
+  margin: auto;
+  width: auto;
+  padding: 10px;
+}
+
+/*Image Text for Category images*/
+.catcontainer .catcontent {
+  position: absolute;
+  bottom: 13px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  font-family: 'Roboto', sans-serif;
+  color: #f1f1f1;
+  padding: 5px;
+	width: 91%;
+}
+
+/*For Image Text in About Us*/
+.aboutcontainer {
+  position: relative;
+  width: auto;
+}
+
+/*Image Text for About Us Staff images*/
+.aboutcontainer .aboutcontent {
+  position: absolute;
+  bottom: 0;
+  margin: 15px 15px -130px 15px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  font-family: 'Roboto', sans-serif;
+  color: #f1f1f1;
+  padding-left: 6px;
+  width: 8%;
+  height: 50px; 
+}
+
+
+/*Alignment of boxes in Category*/
+.style{
+	border: groove;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+/*Map styling in Contact Us*/
+.map {
+	border: groove;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+/*Styling for Staff Images in About Us*/
+.aboutimg {
+  float: left;
+  width: 10%;
+  padding: 15px;
+
+}
+/*End of extra styling of body sections for all pages*/
+/*Styling for Feedback form in Contact Us*/
+* {    
+  box-sizing: border-box;    
+}    
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+input[type=text], select, textarea {    
+  width: 100%;    
+  padding: 12px;    
+  border: 1px solid rgb(70, 68, 68);    
+  border-radius: 4px;    
+  resize: vertical;
+  font-family: 'Roboto', sans-serif;
+  
+}    
+input[type=email], select, textarea {    
+  width: 100%;    
+  padding: 12px;    
+  border: 1px solid rgb(70, 68, 68);    
+  border-radius: 4px;    
+  resize: vertical;    
+  font-family: 'Roboto', sans-serif;
+}    
+    
+label {    
+  padding: 12px 12px 12px 0;    
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;  
+}    
+    
+input[type=submit] {    
+  background-color: rgb(37, 116, 161);    
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding: 12px 20px;    
+  border: none;    
+  border-radius: 4px;    
+  cursor: pointer;    
+  float: right;    
+}    
+    
+input[type=submit]:hover {    
+  font-family: 'Roboto', sans-serif;
+}    
+    
+.container {    
+  border-radius: 5px;    
+  background-color: #FAEBD7;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  border: groove;
+}    
+    
+.col-25 {    
+  float: left;    
+  width: 25%;    
+  margin-top: 6px;
+  font-family: 'Roboto', sans-serif;
+}    
+    
+.col-75 {    
+  float: left;    
+  width: 75%;    
+  margin-top: 6px;
+  font-family: 'Roboto', sans-serif;
+}    
+    
+/* Clear floats after the columns */    
+.row:after {    
+  content: "";    
+  display: table;    
+  clear: both;
+  font-family: 'Roboto', sans-serif;
+}    
+/*End of styling for Feedback form in Contact Us*/
+/*Style for footer section*/
+.footer {
+    background-color: #ffd66c;
+    width: 100%;
+    margin-top: 1%;
+    padding: 1px;
+    clear: both;
+}
+/*Footer page heading*/
+.footertext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+	  justify-content: space-around;
+}
+/*Footer contact text styling*/
+.footercontact {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+  border: 0 none;
+  outline: 0;
+  text-decoration: none;
+}
+
+/*End of footer style*/
+
+
